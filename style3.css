@@ -5,16 +5,29 @@ table{
 }
 td,th{
     border: 1px solid gray;
+    padding: 10px;
 }
 tbody>tr:nth-child(even){
-    background-color: azure;
+    background-color: #d3d3d3;
 }
 th{
-    background-color: #607d8b96;
-    font-weight: normal;
+    background-color: #696969;
+    font-weight: bold;
+    color: #f5f5dc;
 }
 .osszevont{
     background-color: orange
+}
+thead{
+    background-color: #696969;
+    color: #f5f5dc;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+}
+.babu{
+    font-size: 30px;
+    text-align: center;
 }
 @media screen and (max-width: 500px) {
     article{

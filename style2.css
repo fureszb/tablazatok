@@ -1,0 +1,33 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    min-width: 500px;
+}
+td,th{
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    text-align: center;
+}
+tbody>tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.397);
+}
+th{
+    background-color: rgb(174, 203, 255);
+    padding: 10px;
+}
+.osszevont{
+    background-color: orange
+}
+caption{
+    font-weight: bold;
+    font-size: 26px;
+    padding: 10px;
+}
+.kiemel{
+    font-weight: bold;
+    text-align: start;
+}
+@media screen and (max-width: 500px) {
+    article{
+        overflow-x: scroll;
+    }
+}

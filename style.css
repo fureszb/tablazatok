@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px;
+}
+td,th{
+    border: 1px solid gray;
+}
+tbody>tr:nth-child(even){
+    background-color: azure;
+}
+th{
+    background-color: #607d8b96;
+    font-weight: normal;
+}
+.osszevont{
+    background-color: orange
+}
+@media screen and (max-width: 500px) {
+    article{
+        overflow-x: scroll;
+    }
+}
